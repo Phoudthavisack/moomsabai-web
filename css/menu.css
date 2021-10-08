@@ -1,0 +1,46 @@
+body{
+	background:rgb(240,240,240);
+}
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	font-family:boonhome;
+	box-sizing:border-box;
+}
+.menu{
+	width:250px;
+	height:100%;
+	background:linear-gradient(0deg, rgba(47,60,72,1) 0%, rgba(50,65,77,1) 53%, rgba(47,60,72,1));
+	color:white;
+	float:left;
+}
+h3{
+	text-align:center;
+}
+.menu ul li{
+	width:100%;
+	border-bottom:1px solid rgba(0,0,0,0.05);
+	border-top:1px solid rgba(255,255,255,0.05);
+}
+
+.menu ul li p{
+	color:black;
+	padding:10px;
+	background:rgb(215,214,160);
+}
+.menu a{
+	width:100%;
+	padding:10px;
+	color:rgb(215,214,160);
+	display:block;
+	width:100%;
+}
+.menu a:hover{
+	background:rgb(200,200,200);
+	color:rgb(10,10,10);
+}
+.fa{
+	width:20px;
+}

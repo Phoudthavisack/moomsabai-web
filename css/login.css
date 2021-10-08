@@ -1,0 +1,72 @@
+body{
+	background: linear-gradient(0deg, rgba(47,60,72,1) 0%, rgba(50,65,77,1) 53%, rgba(47,60,72,1));
+	margin:0;
+	padding-top:90px;
+	font-family:boonhome;
+	color:white;
+}
+h2{
+	text-align:center;
+}
+#login{
+	width:320px;
+	height:220px;
+	background:rgb(69,82,93);
+	margin: 0 auto;
+	padding:20px;
+	border-radius: 10px;
+}
+#login div{
+	width:100%;
+}
+#login p{
+	clear:right;
+	float:right;
+	font-size:14px;
+}
+#login p a:link {
+	color:white;
+	text-decoration: none;
+}
+#login p a:visited {
+	text-decoration: none;
+}
+#login p a:hover {
+	text-decoration: underline;
+	color:rgb(215,214,160);
+}
+#login p a:active {
+	text-decoration: underline;
+	color:rgb(215,214,160);
+}
+input{
+	height:40px;
+	width:100%;
+	margin-top:10px;
+	border-radius: 7px;
+	border:none;
+	font-family:boonhome;
+	background:rgb(55,65,74);
+	color:white;
+}
+::placeholder{
+	color:rgb(179,186,189);
+}
+input[name='username']{
+	padding:10px;
+}
+input[name='password']{
+	padding:10px;
+}
+button[name='submit']{
+	height:40px;
+	margin-top:10px;
+	border-radius: 7px;
+	border:none;
+	font-family:boonhome;
+	background:rgb(96,207,255);
+	color:white;
+	width:100px;
+	float:right;
+	margin-bottom:20px;
+}
